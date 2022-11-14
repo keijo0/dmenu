@@ -1,8 +1,8 @@
 static int topbar = 0;                      /* -b  option; if 0, dmenu appears at bottom     */
 static int centered = 1;                    /* -c option; centers dmenu on screen */
-static int min_width = 700;                    /* minimum width when centered */
+static int min_width = 500;                    /* minimum width when centered */
 static const char *fonts[] = {
-	"Cousine:size=10"
+	"Cousine:size=8"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
